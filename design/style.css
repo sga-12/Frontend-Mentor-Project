@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.wrap {
+    max-width: 500px;
+    text-align: center;
+    background: rgb(27, 26, 26);
+    border-radius: 8px;
+    margin: 5em;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    margin-inline: auto;
+}
+
+.Profile {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.theTexts,
+.mySocial {
+    color: white;
+
+    h3 {
+        color: rgb(196, 241, 128);
+    }
+
+    p {
+        margin-top: 2em;
+
+    }
+}
+.mySocial {
+    ul {
+        list-style-type: none;
+        margin-top: 2em;
+
+        li {
+            background: rgb(48, 48, 47);
+            margin: 1em 2em 1.5em 1em;
+            border-radius: 10px;
+            padding: 1em;
+
+            &:hover {
+                background-color: rgb(155, 216, 64);
+                color: black
+            }
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+
+
+        }
+    }
+}
